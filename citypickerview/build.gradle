@@ -10,7 +10,7 @@ version = "4.3.2"
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '28.0.2'
+    buildToolsVersion '28.0.3'
 
     //资源前缀
 //    resourcePrefix "liji_"
@@ -54,13 +54,13 @@ makeJar.dependsOn(build)
 
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.google.code.gson:gson:2.8.1'
-    compile 'com.android.support:recyclerview-v7:23.4.0'
-    compile files('libs/pinyin4j-2.5.0.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.google.code.gson:gson:2.8.1'
+    implementation 'com.android.support:recyclerview-v7:23.4.0'
+    implementation files('libs/pinyin4j-2.5.0.jar')
 }
 
 //你的library的地址

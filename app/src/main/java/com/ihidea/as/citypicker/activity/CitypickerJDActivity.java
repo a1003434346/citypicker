@@ -28,6 +28,8 @@ public class CitypickerJDActivity extends AppCompatActivity {
 
     private JDCityConfig jdCityConfig = new JDCityConfig.Builder().build();
 
+//    private JDCityConfig jdCityConfig = new JDCityConfig.Builder().build();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

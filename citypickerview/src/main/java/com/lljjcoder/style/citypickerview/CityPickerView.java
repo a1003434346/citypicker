@@ -36,7 +36,7 @@ import java.util.List;
  */
 public class CityPickerView implements CanShow, OnWheelChangedListener {
 
-    private String TAG = "citypicker_log";
+    private String TAG = "CityPickerView";
 
     private PopupWindow popwindow;
 
